@@ -1,20 +1,30 @@
 body{
+    /* background of whole page */
     background-color: #0F0F0F;
-    color: white;
-    font-family: Verdana, sans-serif;
-    text-align: center;
 }
 
 #container{
+    /* background styling */
     background-color: #272727;
-    border-radius: 15px;
-    width: 500px;
-    border-style: ridge;
-    border-width: 15px;
+    /* border styling */
+    border-style: solid;
     border-color: white;
+    border-width: 10px;
+    border-radius: 15px;
+    /* text styling */
+    text-align: center;
+    color: white;
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    /* element styling */
+    width: 600px;
     margin: 0 auto;
+    padding: 10px;
 }
 
-ul{
-    list-style: none;
+#main-content .recipe-list img{
+    height: auto;
+    width: 250px;
+    padding: 10px;
 }
